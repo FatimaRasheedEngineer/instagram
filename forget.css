@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  border: 1px solid #dfdfdf;
+}
+header img {
+  height: 40px;
+  margin-left: 280px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main {
+  height: 500px;
+  width: 360px;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 30px 5px 40px 7px;
+  align-items: center;
+  text-align: center;
+}
+
+.main img {
+  align-items: center;
+  display: flex;
+  margin-top: -30px;
+  padding-left: 90px;
+}
+
+.main input {
+  margin-top: 10px;
+  padding-left: 58px;
+  width: 300px;
+  height: 38px;
+
+  border: 1px solid #c2c1c1;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+}
+
+.seperator {
+  display: flex;
+  padding-right: 2px;
+  margin-top: 30px;
+  padding-left: 40px;
+}
+.seperator hr {
+  width: 110px;
+  height: 0;
+
+}
+.seperator h6  {
+  width: 50px;
+  margin-top:-7px ;
+  font-size: 14px;
+  color: #6e7984;
+  font-weight: 550;
+}
+.btn button {
+  margin-top: 20px;
+  background-color: rgb(77, 146, 250);
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+.main h4 {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+.main p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: small;
+  margin-top: 8px;
+  color: #6e7984;
+}
+.pass {
+  margin-top: 10px;
+}
+.pass p1 a {
+  text-decoration: none;
+  color: #181346;
+  font-size: smaller;
+}
+.cr p{
+
+   margin-top: 30px;
+}
+.cr p a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(66, 65, 65);
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 13px;
+  font-size:15px ;
+ 
+}
+.login 
+{ 
+    border: 2px solid #dfdfdf;
+    padding: 20px 70px;
+  /* margin-bottom: 96px; */
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius:2px ;
+    width:360px ;
+    margin-left:495px ;
+    margin-top:-55px ;
+    height:40px ;
+    background-color:rgb(245, 245, 245); ;
+
+}
+.login p{
+   margin-top: -10px;
+}
+.login p a {
+    text-decoration: none; 
+    color: #232424;
+    font-weight:700 ;
+    padding-left: 56px;
+    
+    
+   }
+   
+
